@@ -283,4 +283,6 @@ img::-moz-selection {
   height: 100%;
 }
 
-.btn-circle{color: white!important;}
+.btn-circle{
+color: white!important;
+}
