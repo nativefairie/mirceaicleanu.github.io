@@ -275,6 +275,7 @@ img::-moz-selection {
 
 .btn-circle{
     color: #42DCA3!important;
+    border: #42DCA3;
 }
 .tatuaj {
   width: auto;
