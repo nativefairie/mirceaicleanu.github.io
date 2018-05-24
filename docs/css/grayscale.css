@@ -286,3 +286,6 @@ img::-moz-selection {
   max-height: 90%;
   margin: 20px auto;
 }
+.green {
+  color: #42DCA3;
+}
