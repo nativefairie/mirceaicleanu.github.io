@@ -275,7 +275,8 @@ img::-moz-selection {
 
 @media (max-width: 767px) {
   .btn-circle{
-    color: black!important;
+    color: black;
+    border: white;
   }
 }
 .tatuaj {
