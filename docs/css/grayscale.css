@@ -282,3 +282,5 @@ img::-moz-selection {
   width: auto;
   height: 100%;
 }
+
+@media (max-width: 767px){.btn-circle{color: black!important;}}
