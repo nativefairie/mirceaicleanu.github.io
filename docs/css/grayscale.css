@@ -281,6 +281,11 @@ img::-moz-selection {
   background: transparent;
 }
 
+@media (max-width: 767px) {
+  .btn-circle{
+    color: black!important;
+  }
+}
 .tatuaj {
   width: auto;
   height: 100%;
