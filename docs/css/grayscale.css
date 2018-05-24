@@ -279,5 +279,10 @@ img::-moz-selection {
 }
 
 .tatuaj {
+   display: block;
   width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 90%;
+  margin: 20px auto;
 }
