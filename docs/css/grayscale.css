@@ -167,8 +167,8 @@ a:focus, a:hover {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
-  color: white;
-  border: 2px solid white;
+  color: #42DCA3;
+  border: 2px solid #42DCA3;
   border-radius: 100% !important;
   background: transparent;
 }
@@ -273,12 +273,11 @@ img::-moz-selection {
   background: transparent;
 }
 
-@media (max-width: 767px) {
-  .btn-circle{
-    color: white;
-    border: black;
-  }
+.btn-circle{
+    color: #42DCA3!important;
+    border: #42DCA3!important;
 }
+
 .tatuaj {
   width: auto;
   height: 100%;
