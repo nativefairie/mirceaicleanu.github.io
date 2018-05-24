@@ -273,12 +273,11 @@ img::-moz-selection {
   background: transparent;
 }
 
-@media (max-width: 767px) {
-  .btn-circle{
-    color: black;
-    border: white;
-  }
+.btn-circle{
+    color: #fcfcfc!important;
+    border: #fcfcfc!important;
 }
+
 .tatuaj {
   width: auto;
   height: 100%;
