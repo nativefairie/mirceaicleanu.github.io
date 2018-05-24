@@ -283,4 +283,4 @@ img::-moz-selection {
   height: 100%;
 }
 
-@media (max-width: 767px){.btn-circle{color: black!important;}}
+.btn-circle{color: white!important;}
