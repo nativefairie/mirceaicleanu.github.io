@@ -174,7 +174,6 @@ a:focus, a:hover {
 }
 
 .btn-circle:focus, .btn-circle:hover {
-  color: grey;
   outline: none;
   background: rgba(255, 255, 255, 0.1);
 }
@@ -185,7 +184,7 @@ a:focus, a:hover {
 }
 
 .download-section {
-  color: white;
+  color: black;
   background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
