@@ -90,18 +90,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.4/jquery.lazy.min.js"></script>
     <script>
-    $(function() {
-        $('.lazy').lazy();
+    $('.lazy').Lazy({
+        // your configuration goes here
+        scrollDirection: 'vertical',
+        effect: 'fadeIn',
+        visibleOnly: true,
+        onError: function(element) {
+            console.log('error loading ' + element.data('src'));
+        }
     });
-var $img = $('img/blank.gif'),
-  $img_created_with_js = $('<img src="' + $img.attr('data-src') + '">');
-
-$img_created_with_js
-  .on('load', function() {
-
-    $img.attr('src', $img.attr('data-src'));
-
-  });
     </script>
 
   </body>
