@@ -57,7 +57,7 @@
 
 <!-- Tats Section -->
     <section class="content-section text-center">
-              <img class="lazy tatuaj" src="img/blank.gif" data-src="Tats.png" alt="Tatuaj">
+              <img class="lazy tatuaj" src="Tats.png" data-loader="asyncLoader" alt="Tatuaj">
     </section>
 
 
@@ -82,8 +82,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.4/jquery.lazy.min.js"></script>
     <script>
-    $(function() {
-        $('.lazy').lazy();
+    $('.lazy').Lazy({
+        // your configuration goes here
+        scrollDirection: 'vertical',
+        effect: 'fadeIn',
+        visibleOnly: true,
+        onError: function(element) {
+            console.log('error loading ' + element.data('src'));
+        }
     });
     </script>
 
