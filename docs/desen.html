@@ -55,7 +55,7 @@
 
 <!-- Tats Section -->
     <section class="content-section text-center">
-              <img class="tatuaj" src="Desen.png" alt="Desen">
+              <img class="lazy tatuaj" src="img/blank.gif"  src="Desen.png" alt="Desen">
     </section>
 
 
@@ -75,6 +75,14 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.4/jquery.lazy.min.js"></script>
+    <script>
+    $(function() {
+        $('.lazy').lazy();
+    });
+    </script>
 
   </body>
 

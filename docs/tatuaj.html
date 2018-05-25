@@ -8,6 +8,7 @@
     <meta name="description" content="Mircea Icleanu Portofoliu - CV + Scrisoare intentiel; Tatuaj Desen Pictura">
     <meta name="author" content="Mircea Icleanu">
 
+
     <title>Mircea Icleanu | Tatuaj</title>
     <link rel="icon" type="image/x-icon" href="img/fav.ico">
 
@@ -56,7 +57,7 @@
 
 <!-- Tats Section -->
     <section class="content-section text-center">
-              <img class="tatuaj" src="Tats.png" alt="Tatuaj">
+              <img class="lazy tatuaj" src="img/blank.gif" src="Tats.png" alt="Tatuaj">
     </section>
 
 
@@ -76,6 +77,15 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.4/jquery.lazy.min.js"></script>
+    <script>
+    $(function() {
+        $('.lazy').lazy();
+    });
+    </script>
+
 
   </body>
 
