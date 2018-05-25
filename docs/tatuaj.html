@@ -27,6 +27,7 @@
   </head>
 
   <body id="page-top">
+  <div class="loader"></div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -57,7 +58,7 @@
 
 <!-- Tats Section -->
     <section class="content-section text-center">
-              <img class="lazy tatuaj" src="Tats.png" data-loader="asyncLoader" alt="Tatuaj">
+        <img class="lazy tatuaj" src="Tats.png" data-loader="asyncLoader" alt="Tatuaj">
     </section>
 
 
@@ -91,6 +92,11 @@
             console.log('error loading ' + element.data('src'));
         }
     });
+    </script>
+    <script type="text/javascript">
+      $(window).load(function() {
+        $(".loader").fadeOut("slow");
+      })
     </script>
 
 
